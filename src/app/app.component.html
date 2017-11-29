@@ -4,6 +4,14 @@
     <app-has-inner></app-has-inner>
   </app-inner>
 </p>
+<p>HTML templae:</p>
+<pre>
+  <code>
+    &lt;app-inner>
+      &lt;app-has-inner>&lt;/app-has-inner>
+    &lt;/app-inner>
+  </code>
+</pre>
 
 <b>When projected via
   <i>ng-content</i>:</b>
@@ -12,6 +20,14 @@
     <app-has-inner></app-has-inner>
   </app-wrapper>
 </p>
+<p>HTML templae:</p>
+<pre>
+  <code>
+    &lt;app-wrapper>
+      &lt;app-has-inner>&lt;/app-has-inner>
+    &lt;/app-wrapper>
+  </code>
+</pre>
 
 <b>When projected via
   <i>ng-template</i>:</b>
@@ -22,3 +38,13 @@
     </ng-template>
   </app-wrapper-tpl>
 </p>
+<p>HTML templae:</p>
+<pre>
+  <code>
+    &lt;app-wrapper-tpl>
+      &lt;ng-template>
+        &lt;app-has-inner>&lt;/app-has-inner>
+      &lt;/ng-template>
+    &lt;/app-wrapper-tpl>
+  </code>
+</pre>
